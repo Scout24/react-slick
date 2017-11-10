@@ -1,7 +1,7 @@
 {
-  "name": "react-slick",
+  "name": "is24-react-slick",
   "version": "0.15.4",
-  "description": " React port of slick carousel",
+  "description": " React port of slick carousel. IS24 fork to gain react16 compatibility",
   "main": "./lib",
   "files": [
     "dist",
@@ -28,6 +28,9 @@
     "slider",
     "react-component"
   ],
+  "publishConfig": {
+    "registry": "http://npm.rz.is"
+  },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-cli": "^6.16.0",
